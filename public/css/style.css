@@ -1,0 +1,38 @@
+body{
+    color: rgb(14, 13, 13);
+    max-width: 650px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    margin-bottom: 16px;
+    margin-top: 32px;
+
+}
+header a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    margin-right: 10px;
+    font-size: 23px;
+}
+footer{
+    color: rgb(175, 173, 173);
+    border-top: 1px solid rgb(194, 190, 190);
+    margin-top: 16px;
+    padding: 16px 0;
+}
+h1{
+    font-size: 64px;
+
+}
+img{
+    width: 300px;
+}
+.main-content{
+    flex-grow: 1;
+}
