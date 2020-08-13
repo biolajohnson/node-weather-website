@@ -16,15 +16,16 @@ header{
 }
 header a {
     text-decoration: none;
-    color: rgb(156, 156, 156);
+    color: rgb(173, 59, 59);
     margin-right: 10px;
-    font-size: 23px;
+    font-size: 19px;
 }
 footer{
     color: rgb(175, 173, 173);
-    border-top: 1px solid rgb(194, 190, 190);
-    margin-top: 16px;
-    padding: 16px 0;
+    border-top: 1px solid rgb(179, 121, 121);
+    margin-top: 10px;
+    padding: 1px 0;
+
 }
 h1{
     font-size: 64px;
@@ -32,7 +33,21 @@ h1{
 }
 img{
     width: 300px;
+    border: 1px solid rgb(97, 82, 82);
+    border-radius: 45%;
 }
 .main-content{
     flex-grow: 1;
+}
+#search{
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgb(119, 119, 119)
+}
+button{
+    padding: 10px;
+    background: rgb(104, 86, 86);
+    border: 1px solid rgb(94, 83, 83);
+    color: rgb(211, 205, 205);
+    cursor: pointer;
 }
